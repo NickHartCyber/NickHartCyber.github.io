@@ -9,7 +9,7 @@ name: Nick Hart Cybersecurity
 description: Student, aspiring Pen tester, and hockey player from MA
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/NickHartCyber/NickHartCyber.github.io/blob/master/images/rs232resized.png
+avatar: https://raw.githubusercontent.com/NickHartCyber/NickHartCyber.github.io/master/images/rs232resized.png
 
 #
 # Flags below are optional
@@ -26,7 +26,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
