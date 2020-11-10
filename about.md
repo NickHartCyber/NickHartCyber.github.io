@@ -9,4 +9,4 @@ I'm Nick and I'm an aspiring cybersecurity professional. I'm interested in learn
 
 ### Follow me
 
-Twitter: [@nickhart93](twitter:@nickhart93)
+Twitter: [@nickhart93](https://twitter.com/nickhart93)
