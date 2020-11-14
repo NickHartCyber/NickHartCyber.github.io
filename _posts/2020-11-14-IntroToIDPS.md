@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction To IDPS- Intrusion Detection and Prevention Systems
+title: Introduction To IDPS - Intrusion Detection and Prevention Systems
 ---
 
 
@@ -23,11 +23,12 @@ title: Introduction To IDPS- Intrusion Detection and Prevention Systems
 ![_config.yml](/images/IDPSSensorPositioning.PNG)
 
   Configuring the IDPS is just as important as selecting the right one. An IDPS is only as strong as the settings and rules it has in place. Some best practices for IDPS include but are not limited to encrypting communications and testing IDPS signatures and baseline so that they are kept up to date. When selecting an IDPS it is important to think about how much throughput the IDPS needs on our network. “The IPS has to be able to handle the load you throw at it with an acceptable level of latency” (Snyder, 2020). We do not want the IDPS to slow down the network by any means. Also the IDPS “should be able to continue operating during denial of service attacks” (Weaver, Weaver, & Farwood, 2014). Tuning the IDPS for your network is a big determination on how successful the IDPS is going to be at detecting true positive attacks. IDPS systems have to be tuned properly or else it will report many false positives which waste time or it misses true positives which would be much worse. Tuning the IDPS by updating the baseline or tweaking signatures allows you to reduce the number of false positives from you IDPS system. 
+  
   The general architecture of the network should include Intrusion Detection and Prevention System sensors among key points in the network. The use of a hybrid system that incorporates signature-based and anomaly-based detection is also advised. Specifically, signature-based sensors in a DMZ and anomaly-based sensors in the LAN is recommended. Keep in mind that these systems are not plug and play, they require constant tuning, monitoring, and updating to keep them accurate and useful. “The average cost of a data breach in 2020 is $3.86 million” (Swinhoe, 2020) and having an IDPS in place is very useful in mitigating a breach so it is highly recommended to implement one.
 
 References
 
-Scarfone, K., & Mell, P. (2007, Feb). Guide to Intrusion Detection and Prevention Systems (IDPS). Retrieved from National Institute of Standards and Technology: https://citadel-     information.com/wp-content/uploads/2012/08/nist-sp800-94-guide-to-intrusion-detection-and-prevention-systems-2007.pdf
+Scarfone, K., & Mell, P. (2007, Feb). Guide to Intrusion Detection and Prevention Systems (IDPS). Retrieved from National Institute of Standards and Technology: https://citadel- information.com/wp-content/uploads/2012/08/nist-sp800-94-guide-to-intrusion-detection-and-prevention-systems-2007.pdf
 
 Snyder, J. (2020). Best Practices for Deploying Network Intrusion Prevention. Retrieved from PCWorld:             https://www.pcworld.com/article/144634/guide_network_intrusion_prevention_systems.html#:~:text=1.)&text=Your%20IPS%20will%20generally%20be,performance%20issues%20under%20tight%2  0control.
 
