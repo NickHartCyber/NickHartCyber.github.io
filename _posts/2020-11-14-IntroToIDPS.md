@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Introduction To IDPS: Intrusion Detection and Prevention Systems
+title: Introduction To IDPS- Intrusion Detection and Prevention Systems
 ---
+
 
   The internet of today is filled with bad actors trying to steal money, steal information, and damage companies’ reputations by attempting to gain unauthorized access into their networks. A great way to stop these bad actors is to deploy an intrusion detection and prevention system (IDPS). An IDPS is an umbrella of hardware devices that, when placed on a network, detect, prevent, and aid in response to unauthorized intrusions. It “adds another level of defense to firewalls, virtual private networks (VPNs), and other security devices” (Weaver, Weaver, & Farwood, 2014). Keep in mind that an IDPS is not meant to replace a firewall, they are meant to increase security in the internal network. Why do we need this increased security? Firewalls are designed to manage security at the front door, but if an unauthorized user gets past the firewall then you are out of luck. An IDPS solves this problem because it monitors the internal network for suspicious activity.
 
