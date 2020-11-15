@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: $babyBlue;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $darkBlue;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $darkerBlue;
   font-weight: bold;
 
   line-height: 1.7;
@@ -122,12 +122,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: $darkBlue;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: $darkBlue;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $darkBlue;
 
   @include mobile {
     text-align: center;
@@ -192,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $babyBlue;
   font-size: 16px;
 
   @include mobile {
@@ -243,7 +243,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $darkBlue;
 }
 
 .posts > .post:last-child {
@@ -254,9 +254,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid $babyBlue;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $babyBlue;
     font-size: 22px;
     font-style: italic;
   }
@@ -275,7 +275,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $darkBlue;
 }
 
 footer {
