@@ -26,11 +26,12 @@ title: Introduction To IDPS - Intrusion Detection and Prevention Systems
   
   The general architecture of the network should include Intrusion Detection and Prevention System sensors among key points in the network. The use of a hybrid system that incorporates signature-based and anomaly-based detection is also advised. Specifically, signature-based sensors in a DMZ and anomaly-based sensors in the LAN is recommended. Keep in mind that these systems are not plug and play, they require constant tuning, monitoring, and updating to keep them accurate and useful. “The average cost of a data breach in 2020 is $3.86 million” (Swinhoe, 2020) and having an IDPS in place is very useful in mitigating a breach so it is highly recommended to implement one.
 
+
 References
 
 Scarfone, K., & Mell, P. (2007, Feb). Guide to Intrusion Detection and Prevention Systems (IDPS). Retrieved from National Institute of Standards and Technology: https://citadel- information.com/wp-content/uploads/2012/08/nist-sp800-94-guide-to-intrusion-detection-and-prevention-systems-2007.pdf
 
-Snyder, J. (2020). Best Practices for Deploying Network Intrusion Prevention. Retrieved from PCWorld:             https://www.pcworld.com/article/144634/guide_network_intrusion_prevention_systems.html#:~:text=1.)&text=Your%20IPS%20will%20generally%20be,performance%20issues%20under%20tight%2  0control.
+Snyder, J. (2020). Best Practices for Deploying Network Intrusion Prevention. Retrieved from PCWorld:             https://www.pcworld.com/article/144634/guide_network_intrusion_prevention_systems.html
 
 Swinhoe, D. (2020, Aug 13). What is the cost of a data breach? Retrieved from CSO: https://www.csoonline.com/article/3434601/what-is-the-cost-of-a-data-breach.html#:~:text=The%20average%20cost%20of%20a,over%20the%20last%20five%20years.
 
