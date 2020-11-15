@@ -20,7 +20,7 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkBlue;
+  color: $darkerBlue;
 }
 
 .container {
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $darkBlue;
 }
 
 p {
@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $darkBlue;
 }
 
 // Specify the color of the selection
@@ -254,7 +254,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $babyBlue;
+    border-left: 2px solid $darkBlue;
     padding: 0.1em 1em;
     color: $babyBlue;
     font-size: 22px;
