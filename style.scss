@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $babyBlue;
+	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkBlue;
 }
@@ -192,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $darkerBlue;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $white;
+  color: $darkBlue;
   font-size: 16px;
 
   @include mobile {
@@ -225,7 +225,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $darkBlue;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
