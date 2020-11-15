@@ -6,6 +6,8 @@ permalink: /about/
 
 I'm Nick and I'm an aspiring cybersecurity professional. I'm interested in learning more about threat hunting and penetration testing. 
 
+Checkout [Who Am I post](https://nickhartcyber.github.io/WhoAmI/)
+
 
 ### Follow me
 
