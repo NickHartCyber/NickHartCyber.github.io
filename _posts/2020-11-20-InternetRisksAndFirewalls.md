@@ -7,7 +7,8 @@ title: Internet Risks and Firewalls: Home, Small Business, and Enterprise Firewa
 “Database Breach Leaves Customers Credit Card Info Exposed”, “Millions of Users Passwords Stolen in Recent Data Breach”, “Company X to pay $1.1 million in Legal Fees Over Data Handling Misuse.” These news titles can be a reality in the world we live in today if personal data is not handled properly. Internet users can face threats of personal data being stolen even if it is not their fault. What are the threats we face today and how do we protect ourselves from them? 
 
 ![DigitalFootprint](/images/Digital-Footprint.jpg "Foot")
-https://safesitter.org/digital-footprints/ 
+
+Source: https://safesitter.org/digital-footprints/ 
 
 Today’s internet users leave a very large digital footprint, and this is worrisome. Information like “social security numbers, driver’s license, credit cards (subsequently purchase and browsing history), school ID (and tracking of everything it allows), phone bills, call history, mailing lists, medical/payroll records, email, websites, insurances, etc.” (Ruocco, 2020) is gathered and saved by large companies for different purposes. How much do you trust these companies to hold your data? How are they handling this data? These are the questions that users and companies need to ask themselves. Some of the threats todays internet users face are hackers, disgruntled employees, and even terrorists and international government operations.
 
@@ -19,30 +20,39 @@ Terrorist and international governments can be a large threat to a number of ent
 
 How can we protect ourselves against these threats? There are many layers of security and policies we can utilize to protect against these threats. One of the main ways is the use of firewalls. Firewalls are devices on a network that are able to filter and log traffic and they can help you keep out threats like hackers, disgruntled employees, terrorists and governments. They are designed to examine the network traffic flowing through them and decide whether or not that traffic shall proceed to the intended target. The firewall can either be set up to use a permissive policy or restrictive policy. A permissive policy allows all network traffic through and denies certain traffic on a case by case basis. Basically, you allow everything except the rules you have set in place on a blacklist. A restrictive policy denies all traffic by default and only allows traffic on a case by case basis. This means that you block everything except the exceptions you have on a whitelist. Firewalls are a great way to protect your network from any attacker trying to access it. They act as the protective barrier between the internet and your network router. Below I have discussed good quality firewalls for home users, small businesses, and large enterprises. Keep in mind that there is a plethora of firewall options for specific circumstances.
 
-#Home Firewall
+<h2>Home Firewall</h2>
+
 ![HomeFirewall](/images/UniFiSecurityGateway.jpg "UniFi Security Gateway")
+
 Image of UniFi Security Gateway
-https://www.ui.com/unifi-routing/usg/ 
+
+Source: https://www.ui.com/unifi-routing/usg/ 
 
 When selecting a firewall for home use, a customer normally wants the most bang for your buck. The Ubiquiti Unifi Security Gateway is just that. This little firewall is packed with features like UniFi Controller software, gigabit ethernet, enhanced routing, the ability to manage multiple networks, and site-to-site VPN (CircuitsAtHome.com, 2020) to protect your home network. The Unifi Controller allows users remote monitoring and management and comes with the firewall free. With all these features, this firewall sits at a very affordable price of $125.16 (Andrea, 2020). Ubiquiti also offers support on their Help Center where they have help guides for installing and managing your firewall and if you have any issues or questions (Ubiquiti, 2020). 
 
-#Small Business Firewall
+<h2>Small Business Firewall</h2>
+
 ![SmallBusinessFirewall](/images/FortiGate30e.jpg "FortiGate 30E")
+
 Image of FortiGate 30E Firewall
-https://www.amazon.com/Fortinet-FortiGate-Security-Firewall-Appliance/dp/B01HOOBAZ8 
+
+Source: https://www.amazon.com/Fortinet-FortiGate-Security-Firewall-Appliance/dp/B01HOOBAZ8 
 
 Many of you reading may be owners of a small business. In that case you are going to want something a little more powerful than just a home firewall. The FortiGate 30E is a powerful network security firewall designed for small to mid-sized businesses. Features include Unified Threat Management (UTM) services, four LAN gigabit ethernet ports, intrusion prevention system (IPS), web filtering, SSL VPN, AntiVirus Scanning, DNS filtering, and more (WelpMagazine, 2020). The FortiGate 30E retails for around $250 but requires a subscription for FortiCare and FortiGuard Unified Threat Protection which could cost you up to a few thousand dollars (BuyFortinet, 2020). Even if that sound expensive to you, think of how expensive it would be if your company’s data is stolen. 
 
-#Enterprise Firewall
+<h2>Enterprise Firewall</h2>
+
 ![EnterpriseFirewall](/images/pa-5220-hero.jpg "Palo Alto PA-5220")
+
 Image of Palo Alto PA-5220
-https://www.paloguard.com/Firewall-PA-5220.asp 
-https://www.paloaltonetworks.com/network-security/pa-series 
-The challenge of protecting a very large enterprise requires a whole new level of firewall.  Introducing Palo Alto’s PA Series Next Generation Firewalls. These firewalls spare no expense and specialize in multilayer firewall protection (Ferguson, 2020). Firewall models in this class “range from the low-end PA-200 to the high-end PA-7000” which can range in prices from $1,000-$200,000 (Robb & Shread, 2018). These are the firewalls that come with all the bells and whistles. Features like full visibility into encrypted traffic, fully customizable policy control, enforce security policies to local and remote users, Wildfire malware protection, up to 100Gbps throughput, and more (PaloAlto, 2020). Palo Alto also has Wildfire sandboxing which allows you to quarantine and test threats in a safe secure place. Keep in mind these are not plug and play devices. Firewalls at this range require a team of networkers and cyber security specialist to keep you secure. Of course at this price point you are getting what you are paying for, “NSS Labs gave the PA-5220 a 98.7% security effectiveness rating in recent tests” (Robb & Shread, 2018). Palo Alto also offers enterprise level technical support and “the company's customers can be so loyal that many renew without a competitive evaluation” (Robb & Shread, 2018). If you are a large enterprise with tons of data to protect, you are going to need a firewall that is up to the task.
+
+Source: https://www.paloguard.com/Firewall-PA-5220.asp 
+
+The challenge of protecting a very large enterprise requires a whole new level of firewall.  Introducing Palo Alto’s PA Series Next Generation Firewalls. These firewalls spare no expense and specialize in multilayer firewall protection (Ferguson, 2020). Firewall models in this class “range from the low-end PA-200 to the high-end PA-7000” which can range in prices from $1,000-$200,000 (Robb & Shread, 2018). These are the firewalls that come with all the bells and whistles. Features like full visibility into encrypted traffic, fully customizable policy control, enforce security policies to local and remote users, Wildfire malware protection, up to 100Gbps throughput, and more (PaloAlto, 2020). Palo Alto also has Wildfire sandboxing which allows you to quarantine and test threats in a safe secure place. Keep in mind these are not plug and play devices. Firewalls at this range require a team of networkers and cyber security specialist to keep you secure. Of course at this price point you are getting what you are paying for, “NSS Labs gave the PA-5220 a 98.7% security effectiveness rating in recent tests” (Robb & Shread, 2018). Palo Alto also offers enterprise level technical support and “the company's customers can be so loyal that many renew without a competitive evaluation” (Robb & Shread, 2018). If you are a large enterprise with tons of data to protect, you are going to need a firewall that is up to the task. Check out Palo Alto firewalls here: https://www.paloaltonetworks.com/network-security/pa-series 
 
 The internet hosts many threats to the security of its users. Firewalls play a very important role in protecting your local private networks and it is always recommended to have one on your network. Depending on your budget and the amount of security you want or need, there are many firewall options for you. Never neglect details and always stay vigilant. 
 
-#References
+<h1>References</h1>
 Andrea, H. (2020). 10 Best Hardware Firewalls for Home and Small Business Networks (2020). Retrieved from Networks Training: https://www.networkstraining.com/best-hardware-firewalls-for-home-small-business/
 BuyFortinet. (2020). FG-30E FortiGate-30E. Retrieved from BuyFortinet: https://www.buyfortinet.net/Fortinet-FG-30E-p/fg-30e.htm
 CircuitsAtHome.com. (2020). The Top Firewalls For Home Use Reviewed. Retrieved from CircuitsAtHome: https://www.circuitsathome.com/best-firewall-for-home/
