@@ -116,6 +116,7 @@ I then did some googling “nmap version 3.81 exploit” and found the link ([ht
 -	find / -perm -u=s -type f 2>/dev/null
 -	find / -user root -perm -4000 -exec ls -ldb {} \;
 -	nmap --interactive
+
 The find command as you can probably tell is a very powerful command in Linux for finding files with different permissions.
  
 ![nmap](/images/MrRobotPics/Capture28.PNG)
