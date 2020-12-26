@@ -88,6 +88,8 @@ And boom we now have a shell on the box.
  
 ![shell](/images/MrRobotPics/Capture20.PNG)
 
+<h2>Grabbing Flags</h2>
+
 ![filesystem](/images/MrRobotPics/Capture21.PNG)
 
 Snooping around the file system a little bit I found the key.txt file in the home folder of user ‘robot’. But we see that we cannot access it.
