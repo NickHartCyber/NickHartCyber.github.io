@@ -6,8 +6,9 @@ title: "Mr. Robot CTF – Try Hack Me Writeup"
 If you haven’t already, I highly suggest attempting this Try Hack Me room. Personally, I’ve never watched the show (I know shame on me!), but I’ve heard good things about it. The room is on the easier side but it is great for beginner-intermediate attackers to sharpen their skills and learn something new. First let’s start with the normal nmap scan. I like using the -sC -sV options to grab a bunch of information. -sC is a script scan that grabs information like http headers and more. -sV grabs the versions of each service. The -oN writes the output to a file which I named “initial”. Another scan I like to run includes the -A and -T4 options. The -A is a very aggressive scan that is loud and runs -O (OS detection), -sV, -sC, and --traceroute. You can always do a ‘man nmap’ and look through the different options. Remember, only run these scans on hosts you have permission to scan.
 
 <h2>Scanning</h2>
- 
+
 ![nmapscan](/images/MrRobotPics/Capture.PNG)
+
 We see that ports 80 and 443 are both open (HTTP and HTTPS). Going to the site is cool but it doesn’t really reveal much information. Next, I set off a dirbuster scan. You can also run a gobuster scan for the same effect (gobuster dir -u http://<boxIP> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt). If you follow this file path on kali linux there are more wordlists including the ‘rockyou.txt’ wordlist.
  
 ![Dirbuster](/images/MrRobotPics/Capture1.PNG)
@@ -18,6 +19,7 @@ The important directories that we find are the:
 -	/robots.txt
 
 <h2>Gaining Access</h2>
+
 The readme directory had a little bit of information basically telling us that we are on the right track. If we traverse to the robots directory we find two files that we can grab:
  
 ![robots](/images/MrRobotPics/Capture2.PNG)
@@ -94,11 +96,11 @@ Snooping around the file system a little bit I found the key.txt file in the hom
 
 Above is another picture of the netcat connection but this time I transferred it to a bash shell using the oneliner $ python -c “import pty; pty.spawn(‘/bin/bash’);” . We also see a file in the folder called password.raw-md5. If we cat that file we see a user and a hash of the password. 
  
-![passwordcrack](/images/MrRobotPics/Capture23edited.PNG)
+![passwordcrack](/images/MrRobotPics/Capture23edited.jpg)
 
 Using the password cracker called CrackStation we can crack this md5 hash to get the password. Then we just ‘su robot’ and enter the password to get to that user. Now we can cat the key.txt!
  
-![key2](/images/MrRobotPics/Capture24edited.PNG)
+![key2](/images/MrRobotPics/Capture24edited.jpg)
 
 Boom. Well, what now? Now we try to get root privileges. I perused around the file system a little bit with ‘ls -la’ to see what permissions ‘robot’ had but I did not find much. I researched some common privilege escalation techniques and found the following one liner. 
 -	find / -perm /4000 -print 2>/dev/null
@@ -120,7 +122,7 @@ The find command as you can probably tell is a very powerful command in Linux fo
 
 So I tried the nmap --interactive command and made it bash by using the ‘!sh’ command. Boom now I am root and I can grab the final flag.
  
-![nmap2](/images/MrRobotPics/Capture29edited.PNG)
+![nmap2](/images/MrRobotPics/Capture29edited.jpg)
 
 Congrats you did it!
 
